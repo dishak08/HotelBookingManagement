@@ -1,0 +1,22 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Login Form -->
+    <form [formGroup]="loginRequestForm" (ngSubmit)="onLoginSubmit()">
+      <input type="text" id="login" class="fadeIn second" formControlName="email" placeholder="Email">
+      <input type="password" id="password" class="fadeIn third" formControlName="password" placeholder="Password">
+      <div class="gradient-button"><input type="submit" class="fadeIn fourth" value="Log In"></div>
+    </form>
+
+    <p class="not-reg-text">Not Registered?<a class="underlineHover" href="#" routerLink="/auth/register">Create Account</a></p>
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+
+

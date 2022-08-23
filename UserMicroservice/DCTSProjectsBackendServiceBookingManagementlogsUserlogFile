@@ -1,0 +1,7 @@
+2022-07-12 12:18:41,794 WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.? [?] - MESSAGE: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2022-07-12 12:18:41,835 WARN  Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.? [?] - MESSAGE: No XML encryptor configured. Key {7fce4768-4501-446e-9c55-c5b92905836f} may be persisted to storage in unencrypted form.
+2022-07-12 12:18:42,533 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: https://[::]:443
+2022-07-12 12:18:42,537 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Now listening on: http://[::]:80
+2022-07-12 12:18:42,545 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Application started. Press Ctrl+C to shut down.
+2022-07-12 12:18:42,551 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Hosting environment: Development
+2022-07-12 12:18:42,560 INFO  Microsoft.Hosting.Lifetime.? [?] - MESSAGE: Content root path: /app

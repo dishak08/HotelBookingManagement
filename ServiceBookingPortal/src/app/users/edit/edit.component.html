@@ -1,0 +1,110 @@
+<div class="container">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="modal-header">
+          <h4 class="modal-title">Edit Profile</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <input
+              formControlName="id"
+              id="id"
+              type="number"
+              class="form-control"
+              style="display: none"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              formControlName="name"
+              id="name"
+              type="text"
+              class="form-control"
+            />
+            <div
+              *ngIf="f.name.touched && f.name.invalid"
+              class="alert alert-danger"
+            >
+              <div *ngIf="f.name.errors?.required">Name is required.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              formControlName="email"
+              id="email"
+              type="text"
+              class="form-control"
+            />
+            <div *ngIf="f.email && f.email.invalid" class="alert alert-danger">
+              <div *ngIf="f.email.errors?.required">Email is required.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="mobile">Mobile</label>
+            <input
+              formControlName="mobile"
+              id="model"
+              type="tel"
+              class="form-control"
+            />
+            <div
+              *ngIf="f.mobile.touched && f.mobile.invalid"
+              class="alert alert-danger"
+            >
+              <div *ngIf="f.mobile.errors?.required">Mobile is required.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="role">Role</label>
+            <select
+              formControlName="role"
+              id="role"
+              type="text"
+              class="form-control"
+            >
+              <option value="0">Admin</option>
+              <option value="1">User</option>
+          </select>
+          </div>
+
+          <div class="form-group">
+            <label for="createdDate">CreatedDate</label>
+            <input
+              formControlName="createdDate"
+              id="createdDate"
+              type="date"
+              [ngModel]="user.registrationDate| date:'yyyy-MM-dd'" (ngModelChange)="user.registrationDate=$event"
+              class="form-control"
+            />
+            <div
+              *ngIf="f.createdDate.touched && f.createdDate.invalid"
+              class="alert alert-danger"
+            >
+              <div *ngIf="f.createdDate.errors?.required">
+                CreatedDate is required.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" routerLink="/product/index" class="btn btn-primary"
+            >Back</a
+          >
+          <input
+            type="submit"
+            class="btn btn-success"
+            [disabled]="!form.valid"
+            value="Update"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

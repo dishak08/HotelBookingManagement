@@ -1,0 +1,41 @@
+<div class="container">
+
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Movie Details</h4>
+            </div>
+            <div class="container">
+            <div>
+                <strong>ID:</strong>
+                <p>{{ booking.id }}</p>
+            </div>
+
+            <div>
+                <strong>MovieId:</strong>
+                <p>{{ booking.movieId }}</p>
+            </div>
+
+            <div>
+                <strong>UserId:</strong>
+                <p>{{ booking.userId }}</p>
+            </div>
+
+            <div>
+                <strong>NoOfSeats:</strong>
+                <p>{{ booking.noOfSeats }}</p>
+            </div>
+
+            <div>
+                <strong>TotalCost:</strong>
+                <p>{{ booking.totalCost }}</p>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" routerLink="/movie/index" class="btn btn-primary">Back</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

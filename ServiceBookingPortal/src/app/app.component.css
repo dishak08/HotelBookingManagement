@@ -1,0 +1,15 @@
+@import '~ngx-toastr/toastr';
+
+/* Center this nav logo in the row */
+.nav-logo-custom {
+  display: flex;
+  align-items: center;
+
+  transform: translateY(50%);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  justify-content: space-around;
+  flex-basis: auto;
+}

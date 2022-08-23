@@ -1,0 +1,40 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+
+    <!-- Register Form -->
+    <form [formGroup]="form" (ngSubmit)="addUser()">
+      <input type="text" id="name" class="fadeIn second" formControlName="name" placeholder="Full Name">
+      <input type="email" id="email" class="fadeIn third" formControlName="email" placeholder="Email">
+
+      <input type="password" id="password" class="fadeIn fourth" formControlName="password" placeholder="Password">
+      <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobile" placeholder="Phone Number">
+      <input type="submit" class="fadeIn seventh" value="Register">
+
+      <div id="formFooter">
+        <p>Already have an account?</p><a class="underlineHover" routerLink="/auth/login">Login</a>
+      </div>
+
+    </form>
+
+
+
+
+
+
+
+
+
+    <!-- <form [formGroup]="RegisterRequestForm" (ngSubmit)="onRegisterSubmit()">
+      <input type="text" id="name" class="fadeIn second" formControlName="name" placeholder="Full Name">
+      <input type="email" id="email" class="fadeIn third" formControlName="email" placeholder="Email">
+
+      <input type="password" id="password" class="fadeIn fourth" formControlName="password" placeholder="Password">
+      <input type="tel" id="mobileno" class="fadeIn fifth" formControlName="mobileno" placeholder="Phone Number">
+      <input type="date" id="regdate" class="fadeIn sixth" formControlName="regdate" placeholder="Date">
+      <input type="submit" class="fadeIn seventh" value="Register">
+    </form>
+  --> </div>
+</div>

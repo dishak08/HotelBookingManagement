@@ -1,0 +1,82 @@
+<div class="container">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="modal-header">
+            <h4 class="modal-title">Edit Booking</h4>
+        </div>
+        <div class="modal-body">
+
+        <div class="form-group">
+            <input
+                formControlName="id"
+                id="id"
+                type="number"
+                [(ngModel)]="booking.id"
+                class="form-control" style="display:none">
+        </div>
+
+        <div class="form-group">
+            <label for="movieId">MovieId:</label>
+            <input
+                formControlName="movieId"
+                id="movieId"
+                type="number"
+                [(ngModel)]="booking.movieId"
+                class="form-control">
+            <div *ngIf="f.movieId.touched && f.movieId.invalid" class="alert alert-danger">
+                <div *ngIf="f.movieId.errors?.required">MovieId is required.</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="userId">UserId</label>
+            <input
+                formControlName="userId"
+                id="userId"
+                type="number"
+                [(ngModel)]="booking.userId"
+                class="form-control">
+            <div *ngIf="f.userId && f.userId.invalid" class="alert alert-danger">
+                <div *ngIf="f.userId.errors?.required">UserId is required.</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="noOfSeats">NoOfSeats</label>
+            <input
+                formControlName="noOfSeats"
+                id="noOfSeats"
+                type="number"
+                [(ngModel)]="booking.noOfSeats"
+                class="form-control">
+            <div *ngIf="f.noOfSeats.touched && f.noOfSeats.invalid" class="alert alert-danger">
+                <div *ngIf="f.noOfSeats.errors?.required">NoOfSeats is required.</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="totalCost">TotalCost</label>
+            <input
+                formControlName="totalCost"
+                id="totalCost"
+                type="number"
+                [(ngModel)]="booking.totalCost"
+                class="form-control">
+            <div *ngIf="f.totalCost.touched && f.totalCost.invalid" class="alert alert-danger">
+                <div *ngIf="f.totalCost.errors?.required">TotalCost is required.</div>
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="modal-footer">
+        <a href="#" routerLink="/movie/index" class="btn btn-primary">Back</a>
+        <input type="submit" class="btn btn-success" [disabled]="!form.valid" value="Update">
+        </div>
+    </form>
+</div>
+</div>
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">User Details</h4>
+            </div>
+            <div class="container" *ngIf="user">
+            <div>
+                <strong>Id:</strong>
+                <p>{{ user.id }}</p>
+            </div>
+
+            <div>
+                <strong>Name:</strong>
+                <p>{{ user.name }}</p>
+            </div>
+
+            <div>
+                <strong>Email:</strong>
+                <p>{{ user.email }}</p>
+            </div>
+
+            <div>
+                <strong>Mobile:</strong>
+                <p>{{ user.mobile }}</p>
+            </div>
+
+            <div>
+                <strong>Role:</strong>
+                <p>{{ user.role }}</p>
+            </div>
+
+            <div>
+                <strong>CreatedDate:</strong>
+                <p>{{ user.registrationDate | date }}</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" routerLink="/users" class="btn btn-primary">Back</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
