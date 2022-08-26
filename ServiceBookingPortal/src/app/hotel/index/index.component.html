@@ -1,0 +1,48 @@
+
+ <div class="container">
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-6">
+        <h2>Manage <b>Hotels</b></h2>
+      </div>
+      <div class="col-sm-6">
+        <a *ngIf="isAdminUser()" href="#" routerLink="/hotel/create/" class="btn btn-success" ><span>Add New Hotel</span></a>
+      </div>
+            </div>
+        </div>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>DESCRIPTION</th>
+        <th>CITY</th>
+        <th>PHONE NO</th>
+        <th width="220px">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                  <tr *ngFor="let hotel of hotels">
+                    <td>{{ hotel.id }}</td>
+                    <td>{{ hotel.name }}</td>
+                    <td>{{ hotel.price }}</td>
+                    <td>{{ hotel.description }}</td>
+                    <td>{{ hotel.city }}</td>
+                    <td>{{ hotel.phoneNo }}</td>
+                    <!--<td>{{ product.createdDate | date: "dd/MM/yyyy" }}</td>-->
+                    <td>
+                        <a *ngIf="isAdminUser()" href="#" routerLink="/hotel/edit/{{hotel.id}}" class="edit"><span>Edit</span></a><br>
+                        <a href="#" routerLink="/hotel/details/{{hotel.id}}" class="details"><span>Details</span></a><br>
+                        <button *ngIf="isAdminUser()" type="button" (click)="deleteMovie(hotel.id)" class="btn btn-danger">Delete</button>
+                        <a href="#" routerLink="/hotel/booking/{{hotel.id}}" class="details"><span>Book Your Hotel</span></a><br>
+                        <!--<a href="#deleteEmployeeModal" class="delete"><i class="bi bi-trash"></i><span>Delete</span></a>-->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </div>
+  
+  

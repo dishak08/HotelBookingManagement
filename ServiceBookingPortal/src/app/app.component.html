@@ -1,17 +1,3 @@
-<!-- ***** Preloader Start ***** -->
-<!-- <div id="js-preloader" class="js-preloader">
-  <div class="preloader-inner">
-    <span class="dot"></span>
-    <div class="dots">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-</div> -->
-<!-- ***** Preloader End ***** -->
-
-<!-- ***** Header Area Start ***** -->
 <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
   <div class="container container-fluid">
     <div class="row">
@@ -20,16 +6,16 @@
           <!-- ***** Logo Start ***** -->
           <!-- center nav logo -->
           <a routerLink="/" class="logo navbar-brand justify-item-center nav-logo-custom">
-            <h3>SBP</h3>
+            <h3>HBP</h3>
           </a>
           <!-- ***** Logo End ***** -->
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
             <li class="scroll-to-section"><a routerLink="/" class="active">Home</a></li>
             <li *ngIf="isAdminUser()" class="scroll-to-section"><a routerLink="/users">Users</a></li>
-            <li *ngIf="isLoggedIn()" class="scroll-to-section"><a routerLink="/movie">Movies</a></li>
+            <li *ngIf="isLoggedIn()" class="scroll-to-section"><a routerLink="/hotel">Hotels</a></li>
             <li *ngIf="isLoggedIn()" class="scroll-to-section"><a routerLink="/booking">Booking</a></li>
-            <li class="scroll-to-section"><a routerLink="aboutus">AboutUs</a></li>
+            <li><a></a></li>
             <li *ngIf="!isLoggedIn()">
               <div class="gradient-button"><a id="modal_trigger" routerLink="/auth/login"><i class="fa fa-sign-in-alt"></i> Sign In
                   Now</a></div>

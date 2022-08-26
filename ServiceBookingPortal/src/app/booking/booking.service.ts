@@ -13,7 +13,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class BookingService {
 
-  private apiURL = environment.ConnectedServices.Movie;
+  private apiURL = environment.ConnectedServices.Booking;
 
   httpOptions = {
     headers: new HttpHeaders({
@@ -25,7 +25,7 @@ export class BookingService {
 
   getAll(): Observable<any> {
 
-    return this.httpClient.get(this.apiURL + 'api/bookings/')
+    return this.httpClient.get(this.apiURL + 'api/booking/')
 
     .pipe(
       catchError(this.errorHandler)
@@ -34,7 +34,7 @@ export class BookingService {
 
   create(booking:Sample): Observable<any> {
 
-    return this.httpClient.post(this.apiURL + 'api/bookings/', booking, this.httpOptions)
+    return this.httpClient.post(this.apiURL + 'api/booking/', booking, this.httpOptions)
 
     .pipe(
       catchError(this.errorHandler)
@@ -43,7 +43,7 @@ export class BookingService {
 
   find(id: number): Observable<any> {
 
-    return this.httpClient.get(this.apiURL + 'api/bookings/' + id)
+    return this.httpClient.get(this.apiURL + 'api/booking/' + id)
 
     .pipe(
       catchError(this.errorHandler)
@@ -52,7 +52,7 @@ export class BookingService {
 
   update(id: number, booking:Booking): Observable<any> {
 
-    return this.httpClient.put(this.apiURL + 'api/bookings/' + id, booking, this.httpOptions)
+    return this.httpClient.put(this.apiURL + 'api/booking/' + id, booking, this.httpOptions)
 
     .pipe(
       catchError(this.errorHandler)
@@ -60,7 +60,7 @@ export class BookingService {
   }
 
   delete(id:number){
-    return this.httpClient.delete(this.apiURL + 'api/bookings/' + id, this.httpOptions)
+    return this.httpClient.delete(this.apiURL + 'api/booking/' + id, this.httpOptions)
 
     .pipe(
       catchError(this.errorHandler)

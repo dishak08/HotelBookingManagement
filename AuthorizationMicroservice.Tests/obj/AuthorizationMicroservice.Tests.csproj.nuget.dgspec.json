@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj": {}
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj": {
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj",
         "projectName": "AuthorizationMicroservice.Tests",
-        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj",
+        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice.Tests\\AuthorizationMicroservice.Tests.csproj",
         "packagesPath": "C:\\Users\\Ayush Raj Vaish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayush Raj Vaish\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj"
+              "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj": {
+                "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj": {
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
         "projectName": "AuthorizationMicroservice",
-        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
+        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\AuthorizationMicroservice.csproj",
         "packagesPath": "C:\\Users\\Ayush Raj Vaish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\AuthorizationMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\AuthorizationMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayush Raj Vaish\\AppData\\Roaming\\NuGet\\NuGet.Config",

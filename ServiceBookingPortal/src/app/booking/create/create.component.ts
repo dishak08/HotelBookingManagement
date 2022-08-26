@@ -24,10 +24,10 @@ export class CreateComponent implements OnInit {
 
   ngOnInit(): void {
     this.form = new FormGroup({
-      movieId: new FormControl('', [Validators.required]),
+      hotelId: new FormControl('', [Validators.required]),
       userId: new FormControl('', Validators.required),
-      noOfSeats: new FormControl('', Validators.required),
-      totalCost: new FormControl('', Validators.required)
+      noOfRooms: new FormControl('', Validators.required),
+      amount: new FormControl('', Validators.required)
     });
   }
 

@@ -1,0 +1,88 @@
+<div class="container">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div class="modal-header">						
+            <h4 class="modal-title">Hotel ON Demand</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 name">
+                <h2>Welcome {{ userName }}</h2>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-5 book">
+            <strong>Hotel Name:</strong>
+            <p>{{ hotel.name }}</p>
+        </div>
+        <div class="col-lg-5 book">
+            <strong>Price:</strong>
+            <p>{{ hotel.price }}</p>
+        </div>
+    </div>
+        <div class="modal-body">
+            <!-- <div class="form-group">
+                <label for="movieId">MovieId:</label>
+                <input 
+                    formControlName="movieId"
+                    id="movieId" 
+                    type="number" 
+                    class="form-control">
+                <div *ngIf="f.movieId.touched && f.movieId.invalid" class="alert alert-danger">
+                    <div *ngIf="f.movieId.errors?.required">MovieId is required.</div>
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="userId">UserId:</label>
+                <input 
+                    formControlName="userId"
+                    id="userId" 
+                    type="number" 
+                    class="form-control">
+                <div *ngIf="f.userId.touched && f.userId.invalid" class="alert alert-danger">
+                    <div *ngIf="f.userId.errors?.required">UserId is required.</div>
+                </div>
+            </div> -->
+
+            <div class="form-group">
+                <label for="noOfRooms">NoOfRooms:</label>
+                <input 
+                    formControlName="noOfRooms"
+                    id="noOfRooms" 
+                    type="number"
+                    class="form-control" [(ngModel)]="n">
+                <div *ngIf="f.noOfRooms.touched && f.noOfRooms.invalid" class="alert alert-danger">
+                    <div *ngIf="f.noOfRooms.errors?.required">NoOfRooms is required.</div>
+                </div>
+            </div>
+
+            <div>
+                <strong>Total Amount:</strong>
+                <p>{{ n*hotel.price }}</p>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="totalCost">TotalCost:</label>
+                <input 
+                    formControlName="totalCost"
+                    id="totalCost" 
+                    type="number" 
+                    class="form-control">
+                <div *ngIf="f.totalCost.touched && f.totalCost.invalid" class="alert alert-danger">
+                    <div *ngIf="f.totalCost.errors?.required">TotalCost is required.</div>
+                </div>
+            </div> -->
+
+        </div>
+        <div class="modal-footer">
+            <a href="#" routerLink="/booking/index" class="btn btn-primary">Back</a>
+            <input type="submit" class="btn btn-success" value="Add">
+        </div>
+    </form>
+    </div>
+    </div>
+    </div>
+
+

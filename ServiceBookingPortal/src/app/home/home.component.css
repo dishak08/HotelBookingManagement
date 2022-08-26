@@ -1,1 +1,21 @@
+.head{
+    color:#fff;
+}
 
+.movies{
+    margin: 100px;
+}
+
+.movie-heading{
+    padding: 30px;
+    text-align: center;
+}
+
+.card{
+    margin: 50px;
+    border: none;
+}
+
+img{
+    height: 400px;
+}

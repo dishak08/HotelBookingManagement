@@ -91,21 +91,21 @@ namespace UserMicroservice
                 options.AddPolicy("AngularPolicy", policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
 
-            //services.AddDbContext<Database>(options =>
-            //{
-            //    options.UseSqlServer(Configuration.GetConnectionString("Database"));
-            //    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            //});
-
-            services.AddDbContext<InMemoryDatabase>(options =>
+            services.AddDbContext<Database>(options =>
             {
-                options.UseInMemoryDatabase(Configuration.GetConnectionString("InMemoryDB"));
+                options.UseSqlServer(Configuration.GetConnectionString("Database"));
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
-            services.AddHttpClient<IAuthorizationService_Api, AuthorizationService_Api>();
-            // services.AddScoped<IAuthorizationService_Api, AuthorizationService_Api>();
-            // services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IUserRepository, InMemoryUserRepository>();
+            /*services.AddDbContext<InMemoryDatabase>(options =>
+            {
+                options.UseInMemoryDatabase(Configuration.GetConnectionString("InMemoryDB"));
+            });*/
+
+             services.AddHttpClient<IAuthorizationService_Api, AuthorizationService_Api>();
+             //services.AddScoped<IAuthorizationService_Api, AuthorizationService_Api>();
+             services.AddScoped<IUserRepository, UserRepository>();
+            //services.AddScoped<IUserRepository, InMemoryUserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

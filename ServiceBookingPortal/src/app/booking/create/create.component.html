@@ -8,14 +8,14 @@
         </div>
         <div class="modal-body">
             <div class="form-group">
-                <label for="movieId">MovieId:</label>
+                <label for="hotelId">HotelId:</label>
                 <input 
-                    formControlName="movieId"
-                    id="movieId" 
+                    formControlName="hotelId"
+                    id="hotelId" 
                     type="number" 
                     class="form-control">
-                <div *ngIf="f.movieId.touched && f.movieId.invalid" class="alert alert-danger">
-                    <div *ngIf="f.movieId.errors?.required">MovieId is required.</div>
+                <div *ngIf="f.hotelId.touched && f.hotelId.invalid" class="alert alert-danger">
+                    <div *ngIf="f.hotelId.errors?.required">HotelId is required.</div>
                 </div>
             </div>
     
@@ -32,32 +32,32 @@
             </div>
 
             <div class="form-group">
-                <label for="noOfSeats">NoOfSeats:</label>
+                <label for="noOfRooms">NoOfRooms:</label>
                 <input 
-                    formControlName="noOfSeats"
-                    id="noOfSeats" 
-                    type="number" 
+                    formControlName="noOfRooms"
+                    id="noOfRooms" 
+                    type="number"
                     class="form-control">
-                <div *ngIf="f.noOfSeats.touched && f.noOfSeats.invalid" class="alert alert-danger">
-                    <div *ngIf="f.noOfSeats.errors?.required">NoOfSeats is required.</div>
+                <div *ngIf="f.noOfRooms.touched && f.noOfRooms.invalid" class="alert alert-danger">
+                    <div *ngIf="f.noOfRooms.errors?.required">NoOfRooms is required.</div>
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="totalCost">TotalCost:</label>
+                <label for="amount">Amount:</label>
                 <input 
-                    formControlName="totalCost"
-                    id="totalCost" 
+                    formControlName="amount"
+                    id="amount" 
                     type="number" 
                     class="form-control">
-                <div *ngIf="f.totalCost.touched && f.totalCost.invalid" class="alert alert-danger">
-                    <div *ngIf="f.totalCost.errors?.required">TotalCost is required.</div>
+                <div *ngIf="f.amount.touched && f.amount.invalid" class="alert alert-danger">
+                    <div *ngIf="f.amount.errors?.required">Amount is required.</div>
                 </div>
             </div>
 
         </div>
         <div class="modal-footer">
-            <a href="#" routerLink="/movie/index" class="btn btn-primary">Back</a>
+            <a href="#" routerLink="/booking/index" class="btn btn-primary">Back</a>
             <input type="submit" class="btn btn-success" [disabled]="!form.valid" value="Add">
         </div>
     </form>

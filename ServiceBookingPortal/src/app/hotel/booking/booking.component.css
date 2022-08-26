@@ -1,0 +1,13 @@
+.modal-header{
+    background-color: rgb(248, 68, 100);
+    color: #fff;
+}
+
+.name{
+    margin: 10px;
+    text-align: center;
+}
+
+.book{
+    margin: 20px;
+}

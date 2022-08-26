@@ -1,14 +1,14 @@
 export interface Booking {
     id:number;
-    movieId:number;
+    hotelId:number;
     userId:number;
-    noOfSeats:number;
-    totalCost:number;
+    noOfRooms:number;
+    amount:number;
 }
 
 export interface Sample {
-    movieId:number;
+    hotelId:number;
     userId:number;
-    noOfSeats:number;
-    totalCost:number;
+    noOfRooms:number;
+    amount:number;
 }

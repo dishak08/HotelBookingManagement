@@ -72,76 +72,79 @@ C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS-Project\UserMicroservice\obj\
 C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.dll
 C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.pdb
 C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.genruntimeconfig.cache
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\appsettings.json
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\log4net.config
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.StaticWebAssets.xml
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.exe
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.deps.json
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.runtimeconfig.json
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.runtimeconfig.dev.json
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.pdb
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\log4net.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Scrutor.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.Abstractions.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\System.Text.Json.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.AssemblyReference.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.GeneratedMSBuildEditorConfig.editorconfig
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.AssemblyInfoInputs.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.AssemblyInfo.cs
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.CoreCompileInputs.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.MvcApplicationPartsAssemblyInfo.cs
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.MvcApplicationPartsAssemblyInfo.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\staticwebassets\UserMicroservice.StaticWebAssets.Manifest.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.RazorTargetAssemblyInfo.cache
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.CopyComplete
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.dll
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.pdb
-D:\CTS-Project\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.genruntimeconfig.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS-Project\UserMicroservice\bin\Debug\netcoreapp3.1\.filenesting.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\.filenesting.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.exe
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.deps.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.runtimeconfig.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.runtimeconfig.dev.json
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\UserMicroservice.pdb
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Scrutor.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.AssemblyReference.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.AssemblyInfoInputs.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.AssemblyInfo.cs
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\staticwebassets\UserMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\staticwebassets\UserMicroservice.StaticWebAssets.xml
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\scopedcss\bundle\UserMicroservice.styles.css
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.csproj.CopyComplete
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.dll
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.pdb
+C:\Users\Ayush Raj Vaish\Desktop\Cogni Project\CTS Backup\UserMicroservice\obj\Debug\netcoreapp3.1\UserMicroservice.genruntimeconfig.cache

@@ -28,7 +28,7 @@ export class UserService {
     );
   }
 
-  find(id: number): Observable<UserResponse> {
+  search(id: number): Observable<UserResponse> {
     return this.httpClient.get(this.apiUrl + "user/" + id).pipe(
       catchError<any, any>(this.errorHandler.bind(this))
     );

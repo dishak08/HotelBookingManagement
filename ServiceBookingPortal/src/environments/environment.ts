@@ -5,11 +5,17 @@
 export const environment = {
   production: false,
   ConnectedServices: {
-    Authorization: "http://localhost:44775/",
-    Movie: "http://localhost:4888/",
-    Booking: "http://localhost:5000/",
-    User: "http://localhost:44778/"
+    Authorization: "https://localhost:44351/",
+    Hotel: "https://localhost:44335/",
+    Booking: "https://localhost:44352/",
+    User: "https://localhost:44366/"
   }
+  // ConnectedServices: {
+  //   Authorization: "http://localhost:44775/",
+  //   Movie: "https://localhost:44344/",
+  //   Booking: "http://localhost:5000/",
+  //   User: "http://localhost:44778/"
+  // }
 };
 
 /*

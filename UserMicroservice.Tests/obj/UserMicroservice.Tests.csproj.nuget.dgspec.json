@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj": {}
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj": {
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj",
         "projectName": "UserMicroservice.Tests",
-        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj",
+        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice.Tests\\UserMicroservice.Tests.csproj",
         "packagesPath": "C:\\Users\\Ayush Raj Vaish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayush Raj Vaish\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\UserMicroservice.csproj": {
-                "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\UserMicroservice.csproj"
+              "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {
+                "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\UserMicroservice.csproj": {
+    "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\UserMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
         "projectName": "UserMicroservice",
-        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\UserMicroservice.csproj",
+        "projectPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\UserMicroservice.csproj",
         "packagesPath": "C:\\Users\\Ayush Raj Vaish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\CTS-Project\\UserMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\Ayush Raj Vaish\\Desktop\\Cogni Project\\HotelBookingManagement\\UserMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayush Raj Vaish\\AppData\\Roaming\\NuGet\\NuGet.Config",
